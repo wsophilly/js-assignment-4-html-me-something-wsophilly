@@ -1,1 +1,119 @@
 /* Write your CSS here! */
+body {
+	width: 100%;
+	max-width: 1024px;
+	margin: 0 auto;
+	background-color: rgb(255, 255, 255);
+	font-size: 62.5%;
+}
+               
+header,
+main,
+footer {
+	background-color: #FFA833;
+	font-size: 1.6em;
+}
+mainheading {
+    color :red;
+}
+header {
+	padding: 1.875em 0;
+    font-size:  20px;
+}
+
+header h1 {
+	text-align: center;
+}
+
+h1, h2, h3 {
+	margin: 0;
+    text-align: center;
+}
+
+h3 {
+    font-size: 20px;
+}
+
+h1 {
+	font-size: 2.5em;
+}
+
+main h2 {
+	padding: 0.625em 0 0.625em 0.625em;
+}
+
+section {
+	margin: 1.875em 0; 
+ /*   border: 2px solid black; */
+    margin-right: 100px;
+    margin-left: 100px;
+  /*  background-color: rgb(255, 255, 255);  */
+}
+
+section:first-child {
+	margin-top: 0;
+   
+}
+
+section:last-child {
+	margin-bottom: 0;
+}
+
+.funparagraph {
+    color :rgb(235, 248, 4);
+    background: rgba(7, 216, 0, 0.463); 
+    font-size: 20px; 
+    padding: 10px; 
+    border: 2px solid rgb(0, 0, 0); 
+    margin: 10px;">       
+}
+
+nav ul {
+	text-align: center;
+	padding: 0;
+}
+
+nav ul li {
+	display: inline-block;
+	margin-right: 1em;
+	font-size: 0.75em;
+}
+
+p {
+	padding: 1.25em;
+}
+
+figure {
+	margin: 20;
+	padding: 10;
+	text-align: center;
+}
+
+figcaption {
+	font-style: italic;
+}
+
+footer {
+	text-align: center;
+	padding: 3em;
+}
+
+footer p {
+	display: inline-block;
+}
+
+img {
+	width: 70%;
+	max-width: 100%;
+}
+
+@media screen and (max-width: 680px) {
+	nav ul li {
+		margin: 1em 0;
+		display: block;
+		font-size: 1em;
+	}
+	body {
+		font-size: 50%;
+	}
+}
